@@ -1,5 +1,5 @@
 # Symfony Sonata Formatter demo issue
-## This repo is created to explain bug report in Sonata Formatter
+## This repo was created to explain bug report in Sonata Formatter
 https://github.com/sonata-project/SonataFormatterBundle/issues/669
 ## Getting Started
 

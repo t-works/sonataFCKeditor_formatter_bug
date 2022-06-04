@@ -38,5 +38,5 @@
 
     fails because the container is not set in Sonata\FormatterBundle\Controller\CkeditorAdminController 
 2. CkeditorAdminController does not implement ContainerAwareInterface 
-3. container is not injected in any other way durin initailization
-4. I didn't find in sonata formatter docs information describing a way or a need to inject container manually
+3. Container is not injected in any other way during the initialization
+4. I didn't find in the sonata formatter docs information describing a way or a need to inject container manually

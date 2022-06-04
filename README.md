@@ -1,6 +1,6 @@
 # Symfony Sonata Formatter demo issue
 ## This repo is created to explain bug report in Sonata Formatter
-
+https://github.com/sonata-project/SonataFormatterBundle/issues/669
 ## Getting Started
 
 1. If not already done, [install Docker Compose](https://docs.docker.com/compose/install/)

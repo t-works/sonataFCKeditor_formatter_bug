@@ -22,7 +22,7 @@ services:
     admin.article:
         class: App\Admin\ArticleAdmin
         tags:
-            - { name: sonata.admin, model_class: App\Entity\Article, manager_type: orm, label: Article } 
+            - { name: sonata.admin, model_class: App\Entity\Article, manager_type: orm, label: Article, group: TopLevel } 
 #        arguments: [null, App\Admin\ArticleAdmin, ArticleAdmin, @service_container]
         calls:
             - [ 'setContainer', [ '@service_container' ] ]

@@ -1,0 +1,13 @@
+sonata_user:
+    manager_type: orm
+    class:
+        user: App\Entity\SonataUserUser
+    admin: # Admin Classes
+        user:
+            class: Sonata\UserBundle\Admin\Entity\UserAdmin
+            controller: '%sonata.admin.configuration.default_controller%'
+            translation: SonataUserBundle
+    resetting:
+        email:
+            address: sonata@localhost
+            sender_name: Sonata Admin

@@ -18,6 +18,7 @@ doctrine:
                         prefix: 'App\Entity'
                         alias: App
                     SonataMediaBundle: ~
+                    SonataUserBundle: ~
                     
 when@test:
     doctrine:

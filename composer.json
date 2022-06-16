@@ -21,9 +21,11 @@
         "phpdocumentor/reflection-docblock": "^5.3",
         "phpstan/phpdoc-parser": "^1.5",
         "sonata-project/admin-bundle": "^4.11",
+        "sonata-project/classification-bundle": "^4.0",
         "sonata-project/doctrine-orm-admin-bundle": "^4.2",
-        "sonata-project/formatter-bundle": "5.x-dev",
+        "sonata-project/formatter-bundle": "5.0.x-dev",
         "sonata-project/media-bundle": "^4.1",
+        "sonata-project/user-bundle": "^5.1",
         "symfony/asset": "6.1.*",
         "symfony/console": "6.1.*",
         "symfony/dotenv": "6.1.*",
@@ -41,6 +43,7 @@
         "symfony/twig-bundle": "6.1.*",
         "symfony/validator": "6.1.*",
         "symfony/yaml": "6.1.*",
+        "t-works/ckeditor-sonata-media-bundlefork": "dev-master",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0",
         "webonyx/graphql-php": "^14.11"
@@ -99,6 +102,18 @@
         }
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.41"
-    }
+        "symfony/maker-bundle": "^1.41",
+        "symfony/stopwatch": "6.1.*",
+        "symfony/web-profiler-bundle": "6.1.*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/t-works/CKEditorSonataMediaBundleFork.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/t-works/SonataFormatterBundle.git"
+        }
+    ]
 }

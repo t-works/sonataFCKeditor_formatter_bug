@@ -276,6 +276,22 @@
     "sonata-project/cache": {
         "version": "2.2.0"
     },
+    "sonata-project/classification-bundle": {
+        "version": "4.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "3.7",
+            "ref": "e79fbb2e8658677e5d5d9199db7d2735332c4b7d"
+        },
+        "files": [
+            "./config/packages/sonata_classification.yaml",
+            "./src/Entity/SonataClassificationCategory.php",
+            "./src/Entity/SonataClassificationCollection.php",
+            "./src/Entity/SonataClassificationContext.php",
+            "./src/Entity/SonataClassificationTag.php"
+        ]
+    },
     "sonata-project/doctrine-extensions": {
         "version": "1.16",
         "recipe": {
@@ -310,7 +326,7 @@
         ]
     },
     "sonata-project/formatter-bundle": {
-        "version": "5.x-dev"
+        "version": "5.0.x-dev"
     },
     "sonata-project/media-bundle": {
         "version": "4.1",
@@ -334,6 +350,9 @@
             "version": "1.2",
             "ref": "30dba2f9b719f21b497a6302f41aac07f9079e13"
         }
+    },
+    "sonata-project/user-bundle": {
+        "version": "5.1.0"
     },
     "symfony/asset": {
         "version": "v6.0.7"
@@ -434,6 +453,18 @@
     },
     "symfony/http-kernel": {
         "version": "v6.0.8"
+    },
+    "symfony/mailer": {
+        "version": "6.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "4.3",
+            "ref": "97a61eabb351d7f6cb7702039bcfe07fe9d7e03c"
+        },
+        "files": [
+            "./config/packages/mailer.yaml"
+        ]
     },
     "symfony/maker-bundle": {
         "version": "1.41",
@@ -582,8 +613,24 @@
     "symfony/web-link": {
         "version": "v6.0.3"
     },
+    "symfony/web-profiler-bundle": {
+        "version": "6.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "6.1",
+            "ref": "e42b3f0177df239add25373083a564e5ead4e13a"
+        },
+        "files": [
+            "./config/packages/web_profiler.yaml",
+            "./config/routes/web_profiler.yaml"
+        ]
+    },
     "symfony/yaml": {
         "version": "v6.0.3"
+    },
+    "t-works/ckeditor-sonata-media-bundlefork": {
+        "version": "2.x-dev"
     },
     "twig/extra-bundle": {
         "version": "v3.3.8"

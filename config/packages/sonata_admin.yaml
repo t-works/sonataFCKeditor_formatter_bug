@@ -16,6 +16,14 @@ sonata_admin:
             - bundles/sonataformatter/markitup/sets/markdown/style.css
             - bundles/sonataformatter/markitup/sets/html/style.css
             - bundles/sonataformatter/markitup/sets/textile/style.css
+    security:
+        handler: sonata.admin.security.handler.role
+
+#        role_admin: ROLE_ADMIN
+        role_admin: ROLE_USER
+#        role_super_admin: ROLE_SUPER_ADMIN
+        role_super_admin: ROLE_USER
+        
 sonata_block:
     blocks:
         sonata.admin.block.admin_list:

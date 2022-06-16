@@ -1,9 +1,9 @@
 sonata_formatter:
     default_formatter: text
-    ckeditor:
-        templates:
-            browser: '@SonataFormatter/Ckeditor/browser.html.twig'
-            upload: '@SonataFormatter/Ckeditor/upload.html.twig'
+#    ckeditor:
+#        templates:
+#            browser: '@SonataFormatter/Ckeditor/browser.html.twig'
+#            upload: '@SonataFormatter/Ckeditor/upload.html.twig'
     formatters:
 #        markdown:
 #            service: sonata.formatter.text.markdown
